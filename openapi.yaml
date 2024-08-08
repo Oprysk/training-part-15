@@ -44,12 +44,7 @@ paths:
         - Activities
       operationId: PostActivity
       summary: Record activity
-      requestBody:
-        content:
-          application/json:
-            schema:
-              required: true
-              $ref: '#/components/schemas/activity'
+      requestBody: 2
       responses:
         '204':
           description: OK (no content).
