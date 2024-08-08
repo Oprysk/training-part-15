@@ -20,7 +20,7 @@ jobs:
           organization: 'culturia'
           project: 'culturia-api-showdown'
           mountPath: '/apis/learning-api'
-          files: '.'
+          files: 'guide.md openapi.yaml'
           domain: 'https://app.cloud.redocly.com'
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
