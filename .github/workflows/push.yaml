@@ -19,7 +19,7 @@ jobs:
         with:
           organization: 'culturia'
           project: 'culturia-api-showdown'
-          mountPath: '/apis/learning-api'
+          mountPath: '/apis/learning'
           files: 'guide.md openapi.yaml'
           domain: 'https://app.cloud.redocly.com'
         env:
